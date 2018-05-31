@@ -5,12 +5,22 @@ public class Product {
 	private String name;	
 
 	private int price;
+	
 	public Product() {
 		// TODO Auto-generated constructor stub
 	}
 	public Product(String code) {
 		super();
 		this.code = code;
+	}
+	
+	
+
+	public Product(String code, String name, int price) {
+		super();
+		this.code = code;
+		this.name = name;
+		this.price = price;
 	}
 	public String getCode() {
 		return code;
