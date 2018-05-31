@@ -17,6 +17,7 @@ public class Main {
 		}else {
 			System.out.println("다름");
 		}
+		// 이 문장은 GitHub에서 작성
 	}
 
 }
